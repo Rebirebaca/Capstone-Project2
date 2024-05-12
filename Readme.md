@@ -12,12 +12,12 @@ This data has been structured to provide details of following three sections wit
 
    
 ## Table of Contents
-•	Prerequisites
-•	Installation
-•	Usage
-•	Features
-•	Contributing
-•	Contact
+-	Prerequisites
+-	Installation
+-	Usage
+-	Features
+-	Contributing
+- Contact
 
 
 ## Prerequisites
