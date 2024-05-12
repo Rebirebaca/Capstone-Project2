@@ -33,11 +33,11 @@ This data has been structured to provide details of following three sections wit
    
 # Features
 
-# Data Collection: 
+## Data Collection: 
 Clone PhonePe Pulse data from the GitHub repository to your local directory for seamless access. Streamline your data collection process effortlessly. Explore a rich variety of insightful metrics and analytics, empowering you with comprehensive information. Make informed decisions with up-to-date data, ensuring precision in your analyses and strategies.
 
 
-# Data Overview: 
+### Data Overview: 
 Immerse yourself in a detailed exploration of the collected data. Gain comprehensive insights with breakdowns by states, years, quarters, transaction types, and user devices. This thorough analysis empowers you to make informed decisions based on a nuanced understanding of the dataset. Uncover trends, patterns, and correlations that drive strategic planning. Elevate your data-driven approach with a wealth of information at your fingertips.
 
 
