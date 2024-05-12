@@ -11,7 +11,7 @@ This data has been structured to provide details of following three sections wit
 3.	Top - Totals of top States / Districts /Pin Codes
 
    
-## Table of Contents
+# Table of Contents
 •	Prerequisites
 •	Installation
 •	Usage
@@ -31,7 +31,7 @@ This data has been structured to provide details of following three sections wit
 8.	os -- Python Module that provides functions for interacting with the operating system.
 
    
-## Features
+# Features
 
 # Data Collection: 
 Clone PhonePe Pulse data from the GitHub repository to your local directory for seamless access. Streamline your data collection process effortlessly. Explore a rich variety of insightful metrics and analytics, empowering you with comprehensive information. Make informed decisions with up-to-date data, ensuring precision in your analyses and strategies.
