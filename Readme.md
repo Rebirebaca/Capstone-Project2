@@ -58,7 +58,7 @@ Embark on a dynamic analytical journey with our interactive Plotly charts and ma
 Elevate your data exploration with a dynamic geo-visualization dashboard crafted using Streamlit and Plotly. Interact seamlessly with live maps, gaining real-time insights and unlocking the full potential of your geographical data. Effortlessly navigate through the interactive features to enhance your understanding and make informed decisions based on the latest information.
 
 
-## Project Workflow
+# Project Workflow
 
 # Step 1 -- Installing and Importing the required Libraries
 
@@ -75,19 +75,19 @@ import plotly.express as pe
 import os
 import json
 
-## Step 2 -- Data Extraction - Cloning the GitHub Repository
+# Step 2 -- Data Extraction - Cloning the GitHub Repository
 Now one need to clone the GitHub Repository to fetch the data from the Phonepe pulse GitHub repository.
 Go to Google website -> Git Downloads -> go to "https://www.git-scm.com/downloads" -> click your choice(windows, linux/unix, macOS) -> After downloaded you may install that -> After installing, we have to check whether it is properly installed or not. -> For checking, use command prompt-> In command Prompt, type git, then it shows some messages that indicates gitbash is installed successfully -> then we give the username and email for access git -> Create a New Folder -> Open vscode terminal -> Create command prompt -> Type git clone https://github.com/PhonePe/pulse.git -> Press Enter -> cloing into 'pulse' -> After cloning will be done -> check the New Folder whether the data cloned.
 
 
-## Step 3 -- Data Tranformation - JSON to Pandas DataFrame
+# Step 3 -- Data Tranformation - JSON to Pandas DataFrame
 Note : This step is performed in the .ipynb Python notebook that is in a Jupyter Notebook, because it is comparitively easy to visualize and tranform data in a .ipynb Python notebook as comapared to .py Python file. You can check the .ipynb notebook attached above for the code implementation of the process below.
 After the Data Extraction part is completed one need to transform the data. The data that was extracted from the Phonepe Pulse Repository is in form of .json file, now we need to transform that data into Pandas DataFrame, so that we can visualize the data more efficiently in the form of table and if there are any null values we can do Data cleaning to handle those null values. One more advantage of tranforming the data into Pandas DataFrame is that we can further visualize the data in the form of graphs using the Plotly module in Python.
 Here, we go through each JSON file in each folder using a for loop to convert them into a DataFrame that the rest of the program can read and understand. Iteratively accessing each folder's json files, extracting the necessary key and value pairs, and then combining them into a dataframe. For this procedure, I relied on the os, json, and pandas packages.
 
 
-## Step 4 -- Data Insertion - Inserting the Data into MySQL Database
-# Note : You can check the .ipynb notebook attched above for the code implementation of the below process.
+# Step 4 -- Data Insertion - Inserting the Data into MySQL Database
+## Note : You can check the .ipynb notebook attched above for the code implementation of the below process.
 After that one need to create a MySQL Database in there local system. Now below is the Python code to connect to that SQL Database.
 hostname = "your host name goes here"
 database = "your database name goes here"
@@ -101,8 +101,8 @@ database = "your database name goes here"
 After the connection is successfully established one need to write the code to create the required tables with the required columns and insert the data that we have transformed in step-3 to the MySQL database.
 
 
-## Step 5 -- To create a Streamlit Application
-# Note : You can check the .py file attched above for the code implementation of this streamlit Application.
+# Step 5 -- To create a Streamlit Application
+## Note : You can check the .py file attched above for the code implementation of this streamlit Application.
 
 The result of this project is a live geo visualization streamlit dashboard that displays information and insights from the Phonepe pulse Github repository in an interactive and visually appealing manner.
 The data is stored in a MySQL database for efficient retrieval and the dashboard is dynamically updated to reflect the latest data. Users are able to access the dashboard from a web browser and easily navigate the different visualizations and facts and figures displayed.
